@@ -15,10 +15,9 @@
        int quociente = x / y;
        int resto = x % y;
 
-     printf("a soma de %d eh:\n");
-     printf("o produto de %d eh:\n");
-     printf("a diferenca de %d eh:\n");
-     printf("o resto de %d eh:\n");
-
+     printf("a soma de %d e %d eh %d:\n", x, y, soma);
+     printf("o produto de %d e %d eh %d:\n", x, y, produto);
+     printf("a diferenca de %d e %d eh %d:\n", x, y, diferenca);
+     printf("o resto de %d e %d eh %d:\n", x, y, resto);
 
  }
