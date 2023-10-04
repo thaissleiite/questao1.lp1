@@ -1,9 +1,9 @@
-//*programa em C para calcular e exibir a média de três números*\\
+//*programa em C para calcular e exibir a mÃ©dia de trÃªs nÃºmeros*\\
 
 #include <stdio.h> //*biblioteca
 
-int main() { //função principal
-    float n, m, o, media; //variáveis
+int main() { //funÃ§Ã£o principal
+    float n, m, o, media; //variÃ¡veis
 
     printf("Insira o primeiro numero: ");
     scanf("%f", &n);
@@ -13,11 +13,11 @@ int main() { //função principal
 
     printf("Digite o terceiro numero: ");
     scanf("%f", &o);
-    //imprime o que o usuário deve fazer
-    //ler o que foi inserido pelo usuário e armazena na variável
+    //imprime o que o usuÃ¡rio deve fazer
+    //ler o que foi inserido pelo usuÃ¡rio e armazena na variÃ¡vel
 
     media = (n + m + o) / 3.0;
-    //Calcula a média dos três números (somando) e divide o resultado da soma por 3.0 (para média decimal).
+    //Calcula a mÃ©dia dos trÃªs nÃºmeros (somando) e divide o resultado da soma por 3.0 (para mÃ©dia decimal - float).
 
     printf("A media dos tres numeros eh: %f\n", media);
     //imprime a media\\
