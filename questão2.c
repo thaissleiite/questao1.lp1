@@ -6,18 +6,18 @@
 
       printf("Insira o primeiro numero inteiro:\n");
         scanf("%d", &m);
-      printf("Insira o primeiro numero inteiro:\n");
+      printf("Insira o segundo numero inteiro:\n");
         scanf("%d", &n);
 
-          if(m > n){
-             printf("%d eh maior que %d\n", m, n);
+          if(n > m){
+             printf("%d eh maior que %d\n", n);
           }
 
           if(m == n){
             printf("%d eh igual a %d.\n", m, n);
 
-          if(n > m){
-            printf("%d eh maior que %d\n", n, m);
+          if(m > n){
+            printf("%d eh maior que %d\n", m);
 
           }
             return 0;
