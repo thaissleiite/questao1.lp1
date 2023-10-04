@@ -8,7 +8,7 @@ int main() {
 
     tF = (9.0 / 5.0) * tC + 32;
 
-    printf("A temperatura em graus Fahrenheit (F) eh: %.2lf\n", tF);
+    printf("A temperatura em graus Fahrenheit (F) eh: %.2f\n", tF);
 
     return 0;
 }
