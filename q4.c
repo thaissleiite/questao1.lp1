@@ -10,5 +10,8 @@
     float circuferencia = pi = 3,14 * 2 * r;
     float area = pi = 3,13, * r * r;
 
-      printf("O diametro eh %f e %f.\n, diamentro
+      printf("O diametro eh %.2f e %.2f e %.2f.\n", diamentro);
+      printf("A circuferencia eh %.2f e %.2f.\n", circuferencia);
+      printf("O diametro eh %.2f e %.2f e %.2f.\n", area);
+      
   }
