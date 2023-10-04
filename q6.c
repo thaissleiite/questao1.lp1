@@ -6,14 +6,13 @@
       int x;
 
        printf("Insira um numero inteiro:\n);
-         scanf("%d", x);
+        scanf("%d", &x);
 
-        if(x / 2){
-          x % 2 == 0;
+        if(x % 2 == 0){
            printf("O numero informado eh par\n");
 
         }
       else{
-        printf("O numero informado eh impar);
+        printf("O numero informado eh impar");
       }
     }
