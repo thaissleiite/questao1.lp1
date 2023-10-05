@@ -10,15 +10,15 @@
         scanf("%d", &n);
 
           if(n > m){
-             printf("%d eh maior que %d\n", n);
+             printf("%d eh maior que %d\n", n, m);
           }
 
-          if(m == n){
+         if(n == m){
             printf("%d eh igual a %d.\n", m, n);
 
-          if(m > n){
-            printf("%d eh maior que %d\n", m);
-
+         }
+            if(m > n){
+            printf("%d eh maior que %d\n", m,n);
           }
             return 0;
 
