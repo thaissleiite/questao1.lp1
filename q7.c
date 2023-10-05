@@ -3,12 +3,12 @@
 int main(){
 
     printf(" T T T T T T T\n");
-    printf("           T \n");
-    printf(".          T \n");
-    printf("           T\n");
-    printf("           T\n");
-    printf("           T \n");
-   
+    printf("       T \n");
+    printf(".      T \n");
+    printf("       T\n");
+    printf("       T\n");
+    printf("       T \n\n");
+
 
     printf("   S S S \n");
     printf(" S \n");
@@ -31,3 +31,4 @@ int main(){
      printf("L L L L L \n");
 
 }
+
