@@ -5,7 +5,7 @@
     int main(){
       int x;
 
-       printf("Insira um numero inteiro:\n);
+       printf("Insira um numero inteiro:\n");
         scanf("%d", &x);
 
         if(x % 2 == 0){
