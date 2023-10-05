@@ -4,12 +4,12 @@ int main() {
     float sb, sm, cINSS, sl;
 
 
-    sm = 1320.00; //valor do salário mínimo
+    sm = 1320.00; //valor do salÃ¡rio mÃ­nimo
 
     printf("Digite o salario bruto: R$ "); //
     scanf("%f", &sb);
-    //imprime o que o usuário deve fazer
-    //ler o que foi inserido pelo usuário e armazena na variável
+    //imprime o que o usuÃ¡rio deve fazer
+    //ler o que foi inserido pelo usuÃ¡rio e armazena na variÃ¡vel
 
 
     if (sb <= 3 * sm) {
@@ -22,7 +22,7 @@ int main() {
         cINSS = 10 * sm;
     }
 
-    // Calcula a contribuição ao INSS com base nas regras fornecidas
+    // Calcula a contribuiÃ§Ã£o ao INSS com base nas regras fornecidas
 
     sl = sb - cINSS;
 
